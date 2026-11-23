@@ -1,0 +1,77 @@
+{
+  "name": "obyte-org",
+  "version": "1.0.0",
+  "description": "obyte.org website — Next.js + MDX content",
+  "license": "MIT",
+  "type": "module",
+  "packageManager": "pnpm@12.16.1",
+  "scripts": {
+    "build": "cross-env NODE_OPTIONS=\"--no-deprecation --max-old-space-size=8000\" next build && node scripts/postbuild.mjs",
+    "dev": "cross-env NODE_OPTIONS=--no-deprecation next dev",
+    "lint": "cross-env NODE_OPTIONS=--no-deprecation eslint .",
+    "start": "cross-env NODE_OPTIONS=--no-deprecation next start",
+    "start:prod": "sh scripts/start-standalone.sh",
+    "test": "pnpm run test:int && pnpm run test:e2e",
+    "test:e2e": "cross-env NODE_OPTIONS=\"--no-deprecation --import=tsx/esm\" playwright test --config=playwright.config.ts",
+    "test:int": "cross-env NODE_OPTIONS=--no-deprecation vitest run --config ./vitest.config.mts",
+    "check:links": "tsx scripts/check-links.ts",
+    "perf": "lhci autorun --config=lighthouserc.cjs",
+    "content:check": "tsx scripts/content-check.ts",
+    "prebuild": "pnpm content:check && tsx scripts/content-dates.ts"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "cross-env": "^7.0.3",
+    "hast-util-to-jsx-runtime": "^2.3.7",
+    "image-size": "^2.1.0",
+    "isomorphic-dompurify": "^4.7.0",
+    "mdast-util-mdx-jsx": "^3.2.2",
+    "mdast-util-to-hast": "^13.2.2",
+    "next": "16.4.6",
+    "react": "19.2.9",
+    "react-dom": "19.2.9",
+    "remark-gfm": "^4.0.1",
+    "remark-mdx": "^3.1.1",
+    "remark-parse": "^11.0.0",
+    "sharp": "0.35.5",
+    "tailwind-merge": "^3.7.0",
+    "unified": "^11.0.5",
+    "yaml": "^2.9.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@lhci/cli": "~0.15.1",
+    "@playwright/test": "1.63.0",
+    "@tailwindcss/postcss": "^4.3.5",
+    "@types/hast": "^3.0.5",
+    "@types/jsdom": "^30.0.0",
+    "@types/mdast": "^4.0.4",
+    "@types/node": "22.19.9",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "eslint": "^9.16.0",
+    "eslint-config-next": "16.4.6",
+    "eslint-import-resolver-typescript": "^4.4.5",
+    "eslint-plugin-boundaries": "^7.4.4",
+    "jsdom": "28.0.0",
+    "postcss": "^8.5.33",
+    "prettier": "^3.4.2",
+    "tailwindcss": "^4.3.5",
+    "tsx": "4.23.15",
+    "typescript": "5.7.3",
+    "vite-tsconfig-paths": "6.0.5",
+    "vitest": "4.0.18"
+  },
+  "engines": {
+    "node": "^22.23.5 || ^24.22.3 || >=26.13.1",
+    "pnpm": "^9 || ^10 || ^11"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "sharp",
+      "esbuild",
+      "unrs-resolver"
+    ]
+  },
+  "private": true
+}

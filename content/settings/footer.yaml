@@ -1,0 +1,165 @@
+columns:
+  - title: Product
+    links:
+      - label: Download Obyte
+        link: /#download
+        newTab: false
+      - label: Where to use Obyte
+        link: /applications
+        newTab: false
+      - label: Technology
+        link: /technology
+        newTab: false
+      - label: Order Providers
+        link: /technology/order-providers
+        newTab: false
+      - label: Developers
+        link: /developers
+        newTab: false
+      - label: Testnet
+        link: /testnet
+        newTab: false
+      - label: FAQ
+        link: /faq
+        newTab: false
+      - label: Grants
+        link: /grants
+        newTab: false
+      - label: Explorer
+        link: "{explorer}"
+        newTab: true
+      - label: Blog
+        link: https://blog.obyte.org
+        newTab: true
+      - label: Wiki
+        link: https://wiki.obyte.org
+        newTab: true
+      - label: White Paper
+        link: /Byteball.pdf
+        newTab: false
+      - label: GitHub
+        link: "{github}"
+        newTab: true
+      - label: Governance
+        link: https://governance.obyte.org
+        newTab: true
+  - title: Platform
+    links:
+      - label: Obyte Platform
+        link: /platform
+        newTab: false
+      - label: Autonomous Agents
+        link: /platform/autonomous-agents
+        newTab: false
+      - label: Smart contracts
+        link: /platform/smart-contracts
+        newTab: false
+      - label: Identity
+        link: /platform/identity
+        newTab: false
+      - label: Payment channels
+        link: /platform/payment-channels
+        newTab: false
+      - label: Oracles
+        link: /platform/oracles
+        newTab: false
+      - label: Tokens
+        link: /platform/tokens
+        newTab: false
+      - label: Blackbytes
+        link: /platform/blackbytes
+        newTab: false
+      - label: Textcoins
+        link: /platform/textcoins
+        newTab: false
+      - label: Prosaic contracts
+        link: /platform/prosaic-contracts
+        newTab: false
+      - label: Arbiter contracts
+        link: https://arbstore.org
+        newTab: true
+      - label: Chatbots
+        link: /platform/chatbots
+        newTab: false
+      - label: IoT
+        link: /platform/iot
+        newTab: false
+      - label: IoT PoCs
+        link: /platform/iot/proofs-of-concept
+        newTab: false
+  - title: About
+    links:
+      - label: Events
+        link: /events
+        newTab: false
+      - label: Careers
+        link: /careers
+        newTab: false
+      - label: Distribution
+        link: /distribution
+        newTab: false
+      - label: World Community Grid
+        link: /distribution/world-community-grid
+        newTab: false
+      - label: Resources
+        link: /resources
+        newTab: false
+      - label: Community projects
+        link: /community-projects
+        newTab: false
+      - label: DAG vs Blockchain
+        link: https://blog.obyte.org/dag-vs-blockchain-6d2d99f10bd9
+        newTab: true
+      - label: Obyte for business
+        link: https://business.obyte.org
+        newTab: true
+      - label: Merchants
+        link: https://obyte-for-merchants.com
+        newTab: true
+      - label: Stats
+        link: https://stats.obyte.org
+        newTab: true
+      - label: AA stats
+        link: https://aa-stats.obyte.org
+        newTab: true
+      - label: Obyte City
+        link: https://city.obyte.org
+        newTab: true
+      - label: Obyte Friends
+        link: https://friends.obyte.org
+        newTab: true
+      - label: Contact
+        link: /contact
+        newTab: false
+  - title: Legal
+    links:
+      - label: Declaration of the Independence of Cyberspace
+        link: https://www.eff.org/cyberspace-independence
+        newTab: true
+      - label: Cypherpunk's Manifesto
+        link: https://www.activism.net/cypherpunk/manifesto.html
+        newTab: true
+      - label: Crypto Anarchist Manifesto
+        link: https://www.activism.net/cypherpunk/crypto-anarchy.html
+        newTab: true
+      - label: Obyte Foundation
+        link: /legal
+        newTab: false
+      - label: Terms
+        link: /legal/terms
+        newTab: false
+      - label: Privacy
+        link: /legal/privacy
+        newTab: false
+newsletter:
+  enabled: true
+  action: https://static.mailerlite.com/webforms/submit/t1t7v1
+  placeholder: Email for Obyte newsletter
+  buttonLabel: Subscribe
+  successTitle: Thank you!
+  successText: You have successfully joined our subscriber list.
+copyright: © 2016-{year} Obyte.
+mobileCopyright: © {year} Obyte.
+copyrightLink:
+  label: Proudly blocked in China
+  url: https://blocky.greatfire.org/search?q=obyte.org&page=1

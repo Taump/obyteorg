@@ -1,0 +1,176 @@
+# Alt texts of public/media images (a usage may override with alt="…")
+/media/theme/applications/img2.png: trade
+/media/theme/applications/img3-mobile.png: conditional payments
+/media/theme/applications/img3.png: conditional payments
+/media/theme/applications/img4-mobile.png: secure donations
+/media/theme/applications/img4.png: secure donations
+/media/theme/applications/img5-mobile.png: p2p insurance
+/media/theme/applications/img5.png: p2p insurance
+/media/theme/applications/img6-mobile.png: prediction markets
+/media/theme/applications/img6.png: prediction markets
+/media/theme/applications/img7.png: ico platform
+/media/theme/applications/kivach-mobile.png: donations platform
+/media/theme/applications/kivach.png: donations platform
+/media/theme/autonomous-agents/img1.svg: dag
+/media/theme/autonomous-agents/img2.svg: autonomous agents
+/media/theme/autonomous-agents/img3.svg: examples
+/media/theme/autonomous-agents/mobile.png: autonomous agents
+/media/theme/autonomous-agents/mobile2.png: autonomous agents
+/media/theme/barlow-small.png: John Perry Barlow
+/media/theme/barlow.jpeg: John Perry Barlow
+/media/theme/blackbytes/img1.svg: p2p private payments
+/media/theme/blackbytes/img2.png: private textcoins
+/media/theme/chatbots/mob1-shadow.png: chat interface
+/media/theme/chatbots/mob1.png: chat interface
+/media/theme/chatbots/mob2-shadow.png: chatbot store
+/media/theme/chatbots/mob2.png: chatbot store
+/media/theme/coin-lists/cmc.png: coinmarketcap.com
+/media/theme/coin-lists/gecko.png: coingecko.com
+/media/theme/coin-lists/hover/cmc.png: coinmarketcap.com
+/media/theme/coin-lists/hover/gecko.png: coingecko.com
+/media/theme/coin-lists/hover/paprika.png: coinpaprika.com
+/media/theme/coin-lists/paprika.png: coinpaprika.com
+/media/theme/community/img1.png: project directory
+/media/theme/community/svg1.svg: community projects
+/media/theme/comparison/blockchain.svg: Blockchain
+/media/theme/comparison/centralization.svg: Full centralization
+/media/theme/comparison/dag.svg: DAG
+/media/theme/developers/building_blocks.svg: building blocks
+/media/theme/developers/documentation.svg: documentation
+/media/theme/developers/grants.svg: grants
+/media/theme/developers/tools_and_libraries.svg: tools and libraries
+/media/theme/events/img1.png: LaBITconf in Montevideo, Uruguay
+/media/theme/events/img10.jpg: Crypto Monday meetup in Stuttgart, Germany
+/media/theme/events/img11.jpg: Crypto Monday meetup in Stuttgart, Germany
+/media/theme/events/img12.jpg: Crypto Monday meetup in Stuttgart, Germany
+/media/theme/events/img13.jpg: Seamless Smart Payments Conference in Dubai, UAE
+/media/theme/events/img14.jpg: Mobile World Congress / 4YFN in Barcelona, Spain
+/media/theme/events/img15.jpg: Blockchain Future Festival
+/media/theme/events/img16.jpg: Blockchain Future Festival
+/media/theme/events/img17.jpg: Japan Blockchain Conference in Yokohama, Japan
+/media/theme/events/img2.png: LaBITconf in Montevideo, Uruguay
+/media/theme/events/img3.jpg: Blockchain & The City Workshop in Lyon, France
+/media/theme/events/img4.jpg: Blockchain & The City Workshop in Lyon, France
+/media/theme/events/img5.jpg: Blockchain & The City Workshop in Lyon, France
+/media/theme/events/img6.jpg: Blockchain & The City Workshop in Lyon, France
+/media/theme/events/img7.jpg: Decentralized conference in Athens, Greece Oct-Nov 2019
+/media/theme/events/img8.jpg: Hackathon in Stuttgart, Germany
+/media/theme/events/img9.jpg: Crypto Monday meetup in Stuttgart, Germany
+/media/theme/exchanges/biconomy.png: biconomy.com
+/media/theme/exchanges/coinspot.png: coinspot.com.au
+/media/theme/exchanges/getmein.png: getmein.ooo
+/media/theme/exchanges/kaiserex.png: kaiserex.com
+/media/theme/exchanges/nonkyc.png: nonkyc.io
+/media/theme/exchanges/odex.png: odex.ooo
+/media/theme/exchanges/oswap-io.png: oswap.io
+/media/theme/exchanges/pancakeswap.png: pancakeswap.finance
+/media/theme/exchanges/quickswap.png: quickswap.exchange
+/media/theme/exchanges/uniswap.png: app.uniswap.org
+/media/theme/grants/calendar.svg: calendar
+/media/theme/grants/guidelines.svg: guidelines
+/media/theme/hero-image.png: Evolution of ledgers
+/media/theme/hughes-small.png: Eric Hughes
+/media/theme/identity/github.svg: github username
+/media/theme/identity/img1-bot.png: insert private profile
+/media/theme/identity/img1-mob.png: profile info sharing
+/media/theme/identity/img1.png: profile info sharing
+/media/theme/identity/svg1.svg: real name kyc
+/media/theme/identity/svg2.svg: email
+/media/theme/identity/svg4.svg: steem username
+/media/theme/iot/img1.jpg: toni & tony
+/media/theme/iot/img2.jpg: bosch connectory 2nd hackathon
+/media/theme/iot/svg1.svg: iot
+/media/theme/kohr-small.png: Leopold Kohr
+/media/theme/may-small.png: Timothy C. May
+/media/theme/oracles/img1.png: oracle data feed
+/media/theme/oracles/img2-mob.png: manually posted data feed
+/media/theme/oracles/img2.png: manually posted data feed
+/media/theme/order-providers/img1.png: example order providers
+/media/theme/order-providers/img3.png: current order providers
+/media/theme/payments-channels/img1.svg: BIoT wallet
+/media/theme/phone-shadow.png: Obyte wallet
+/media/theme/phone.png: Obyte wallet
+/media/theme/platform/img1.png: Autonomous Agents
+/media/theme/platform/img10.png: Prosaic contracts
+/media/theme/platform/img11.png: IoT
+/media/theme/platform/img2.png: Self-sovereign identity
+/media/theme/platform/img3.png: Payment channels
+/media/theme/platform/img4.png: Smart contracts
+/media/theme/platform/img5.png: Oracles
+/media/theme/platform/img6.png: Textcoins
+/media/theme/platform/img7.png: Issuing tokens
+/media/theme/platform/img8.png: Private untraceable currencies such as Blackbytes
+/media/theme/platform/img9.png: Chat and chatbots
+/media/theme/poc/img1.jpg: bosch connectory coffee and printer
+/media/theme/poc/img2.jpg: bosch connectory 2nd hackathon
+/media/theme/poc/img3.jpg: dutch auction
+/media/theme/poc/img4.jpg: energy trading
+/media/theme/poc/img5.jpg: powertool vending machine
+/media/theme/poc/img6.jpg: consumer goods marketplace
+/media/theme/poc/img7.jpg: booking with bosch coins
+/media/theme/privacy/img1.svg: personal information
+/media/theme/privacy/img2.svg: information collected
+/media/theme/privacy/img3.svg: use of camera
+/media/theme/privacy/img4.svg: crash reports
+/media/theme/prosaic/insert-private-profile.png: insert private profile
+/media/theme/prosaic/mobile-img.png: prosaic contract
+/media/theme/prosaic/mobile-img2.png: prosaic contract
+/media/theme/resources/resource1.svg: whitepaper
+/media/theme/resources/resource3.svg: blog
+/media/theme/resources/resource7.svg: wechat
+/media/theme/smart-contracts/img1.png: smart-contracts
+/media/theme/smart-contracts/img2-mob.png: conditions
+/media/theme/smart-contracts/img2.png: conditions
+/media/theme/smart-contracts/img3-mob.png: shared wallets
+/media/theme/smart-contracts/img3.png: shared wallets
+/media/theme/svg/app-store.svg: Download on the App Store
+/media/theme/svg/google-play-store.svg: Get it on Google Play
+/media/theme/svg/social-icons/bitcoin.svg: bitcoin
+/media/theme/svg/social-icons/discord.svg: discord
+/media/theme/svg/social-icons/facebook.svg: facebook
+/media/theme/svg/social-icons/hover/bitcoin.svg: bitcoin
+/media/theme/svg/social-icons/hover/discord.svg: discord
+/media/theme/svg/social-icons/hover/facebook.svg: facebook
+/media/theme/svg/social-icons/hover/linkedin.svg: linkedin
+/media/theme/svg/social-icons/hover/medium.svg: medium
+/media/theme/svg/social-icons/hover/reddit.svg: reddit
+/media/theme/svg/social-icons/hover/telegram.svg: telegram
+/media/theme/svg/social-icons/hover/twitter.svg: twitter
+/media/theme/svg/social-icons/hover/wechat.svg: wechat
+/media/theme/svg/social-icons/hover/youtube.svg: youtube
+/media/theme/svg/social-icons/linkedin.svg: linkedin
+/media/theme/svg/social-icons/medium.svg: medium
+/media/theme/svg/social-icons/reddit.svg: reddit
+/media/theme/svg/social-icons/telegram.svg: telegram
+/media/theme/svg/social-icons/twitter.svg: twitter
+/media/theme/svg/social-icons/wechat.svg: wechat
+/media/theme/svg/social-icons/youtube.svg: youtube
+/media/theme/team/alexander.jpg: Alexander Ponomarev
+/media/theme/team/alexey.png: Alexey Gerasimov
+/media/theme/team/artem-n.png: Artem Nagorny
+/media/theme/team/artem.png: Artem Valyakin
+/media/theme/team/casper.png: Casper Niebe
+/media/theme/team/evgenii.jpg: Evgeniy Stulnikov
+/media/theme/team/fabiola.png: Fabiola Sandoval
+/media/theme/team/igor.png: Igor Pavlenko
+/media/theme/team/john.png: John McLeod
+/media/theme/team/luke.png: Luke Angell
+/media/theme/team/mikhail.jpg: Mikhail Pustovalov
+/media/theme/team/papabyte.jpg: Papabyte
+/media/theme/team/steve.png: Steve Safronoff
+/media/theme/team/tarmo.png: Tarmo
+/media/theme/team/tony.png: Tony Churyumoff
+/media/theme/team/travin.png: Travin Keith
+/media/theme/team/vladimir.png: Vladimir Glushkov
+/media/theme/team/yaroslav.png: Yaroslav Kozhukhov
+/media/theme/technology/flex1.svg: 1 byte equals 1 byte
+/media/theme/technology/flex2.svg: narrow dag
+/media/theme/technology/svg1.svg: new transaction in dag
+/media/theme/technology/svg2.svg: stable dag grows like snowball
+/media/theme/technology/svg3.svg: directed acyclic graph
+/media/theme/technology/svg4.svg: main chain in dag
+/media/theme/testnet/phone-shadow.png: Obyte wallet
+/media/theme/testnet/phone.png: Obyte wallet
+/media/theme/textcoins/img1.png: textcoins with email
+/media/theme/textcoins/svg1.svg: print qr codes
+/media/theme/textcoins/svg2.svg: scan qr code

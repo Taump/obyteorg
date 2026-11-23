@@ -1,0 +1,56 @@
+navItems:
+  - label: Applications
+    link: /applications
+    children: []
+  - label: Platform
+    link: /platform
+    children:
+      - label: Autonomous Agents
+        link: /platform/autonomous-agents
+      - label: Smart Contracts
+        link: /platform/smart-contracts
+      - label: Self-Sovereign Identity
+        link: /platform/identity
+      - label: Payment Channels
+        link: /platform/payment-channels
+      - label: Oracles
+        link: /platform/oracles
+      - label: Tokens
+        link: /platform/tokens
+      - label: Blackbytes
+        link: /platform/blackbytes
+      - label: Textcoins
+        link: /platform/textcoins
+      - label: Prosaic Contracts
+        link: /platform/prosaic-contracts
+      - label: Chatbots
+        link: /platform/chatbots
+      - label: IoT
+        link: /platform/iot
+  - label: Technology
+    link: /technology
+    children:
+      - label: Order Providers
+        link: /technology/order-providers
+  - label: Developers
+    link: /developers
+    children: []
+  - label: FAQ
+    link: /faq
+    children: []
+  - label: Contact
+    link: /contact
+    children: []
+cta:
+  label: Download wallet
+  link: /#download
+mobileExtraLinks:
+  - label: Blog
+    link: https://blog.obyte.org
+    newTab: true
+  - label: GitHub
+    link: "{github}"
+    newTab: true
+  - label: Contact
+    link: /contact
+    newTab: false

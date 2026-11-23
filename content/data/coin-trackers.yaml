@@ -1,0 +1,12 @@
+- name: coingecko.com
+  link: https://www.coingecko.com/en/coins/obyte
+  logo: /media/theme/coin-lists/gecko.png
+  logoHover: /media/theme/coin-lists/hover/gecko.png
+- name: coinmarketcap.com
+  link: https://coinmarketcap.com/currencies/obyte/
+  logo: /media/theme/coin-lists/cmc.png
+  logoHover: /media/theme/coin-lists/hover/cmc.png
+- name: coinpaprika.com
+  link: https://coinpaprika.com/coin/gbyte-obyte/
+  logo: /media/theme/coin-lists/paprika.png
+  logoHover: /media/theme/coin-lists/hover/paprika.png

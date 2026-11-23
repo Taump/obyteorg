@@ -1,0 +1,83 @@
+---
+title: Autonomous Agents
+description: Autonomous Agents run on the DAG to orchestrate a programmed, strictly rules-based flow and custody of assets, free from any human intervention.
+sitemapPriority: 0.8
+---
+
+<Article variant="autonomous-agents-wrap" anchor="autonomous-agents">
+  <PageIntro title="Autonomous Agents" leadStyle="subBlock">
+    <Text style="plain">
+      Autonomous Agents are programs that run on the DAG and allow orchestrating a programmed, strictly rules-based flow and custody of assets, free from any human intervention.
+    </Text>
+
+    <Text style="small">
+      AAs are most useful for creating **decentralized finance (DeFi)** apps where complete certainty about their performance is of utmost importance.
+    </Text>
+  </PageIntro>
+
+  Decentralized applications (dApps) that can be powered by AAs include:
+
+  <Box style="list-block d-flex">
+    - tradable shares in prediction markets;
+    - futures contracts;
+    - algorithmic stable coins;
+    - synthetic assets;
+    - other derivatives;
+    - collateralized lending;
+    - margin trading.
+  </Box>
+
+  <FlexBlock image="/media/theme/autonomous-agents/img1.svg" imagePosition="right" kind="flex-block" modifiers="one">
+    ## Why DAG matters
+
+    Unlike blockchains, there are no miners or other intermediaries on DAG, therefore there is no room for miner manipulation. One doesn't need to bother about front-running or censorship by miners. Therefore, dApps running on a DAG are safer than dApps on a blockchain.
+
+    <Spacer lines="2" />
+
+    ## How Autonomous Agents work
+
+    Autonomous Agents are similar to vending machines. One sends a transaction with some money and data to an AA and expects a response: some other monetary token and some data permanently recorded on the DAG — similar to inserting coins into a vending machine, entering the number of the desired drink on a keypad, and getting the drink in response.
+  </FlexBlock>
+
+  <FlexBlock image="/media/theme/autonomous-agents/mobile.png" mobileImage="/media/theme/autonomous-agents/mobile2.png" imagePosition="left" kind="flex-block" modifiers="two">
+    ## Agents, not contracts
+
+    Autonomous Agents are <a href="https://en.wikipedia.org/wiki/Agent_(economics)" target="_blank">economic agents</a> when dealing with anything of value and they exist on equal terms with human actors: both are *endpoints* of interactions. Contracts, on the other hand, exist *between* humans or human-managed organizations, contracts *are* interactions.
+
+    ![autonomous agents](/media/theme/autonomous-agents/img2.svg)
+
+    Unlike humans though, AAs are governed by immutable code, not by free will.
+
+    <Spacer lines="2" />
+
+    ## Transparency
+
+    Before actually sending any money or command to an AA, one can see the expected response of the AA.
+  </FlexBlock>
+
+  <DevCallout image="/media/theme/developers/documentation.svg" category="Developers" title="Build your AAs">
+    AAs are written in **Oscript** — a new programming language designed for this purpose. Oscript avoids some unsafe programming patterns common in earlier languages such as Solidity. It is easier to see what an AA is going to do, it is harder to make mistakes that would cost millions. Programming in Oscript is safer. Oscript syntax is easy to learn and will look familiar to those developers who have experience in JavaScript, PHP, Java, and SQL.
+
+    <Spacer lines="2" />
+
+    ##### Developer tools
+
+    - <a href="https://oscript.org" target="_blank">Oscript Editor</a>: a browser based editor for Oscript, it allows you to write AA code in the browser, no installation required, and immediately deploy it using your Obyte wallet. The editor includes a few templates of AAs to start with.
+    - <a href="https://marketplace.visualstudio.com/items?itemName=obyte.oscript-vscode-plugin" target="_blank">Visual Studio Code plugin for Oscript</a> also allows you to edit and deploy, plus it includes a testkit for running tests.
+    - <a href="https://github.com/valyakin/aa-testkit" target="_blank">AA Testkit</a> for running tests and making sure your AA operates correctly in various scenarios of its usage.
+
+    <br />See the full <a href="https://developer.obyte.org/autonomous-agents" target="_blank">developer documentation about Autonomous Agents</a>.
+  </DevCallout>
+
+  <DevCallout image="/media/theme/autonomous-agents/img3.svg" title="Try AAs now" white>
+    Some existing AAs:
+
+    - <a href="https://ostable.org" target="_blank">Bonded Stablecoins</a>: issue or redeem stablecoins pegged to any asset or index, or launch a new stablecoin.
+    - <a href="https://odex.ooo" target="_blank">ODEX decentralized exchange</a>: trade any tokens issued on Obyte with fast order execution, user experience is similar to that of centralized exchanges.
+    - <a href="https://oswap.io" target="_blank">Oswap automated market maker</a>: quickly exchange one token for another in just a few clicks.
+    - <a href="https://token.oswap.io" target="_blank">OSWAP token</a>: govern liquidity incentives to Oswap pools and profit from Oswap growth.
+    - <a href="https://tokens.ooo" target="_blank">Decentralized token registry</a>: assign ticker symbols to tokens on Obyte.
+    - <a href="https://kivach.org" target="_blank">Kivach cascading donations</a>: donate to open-source projects and let them share the donations with other open-source projects they depend upon.
+    - <a href="https://prophet.ooo" target="_blank">Prophet prediction markets</a>: make money by predicting future events (such as sports, cryptocurrency prices) or by providing liquidity to the markets.
+  </DevCallout>
+</Article>

@@ -1,0 +1,56 @@
+---
+title: DAG Chain Technology
+description: Obyte is based on DAG (directed acyclic graph), not blockchain. By using a block-free ledger, Obyte fully delivers secure decentralized crypto without miners.
+menuTitle: Technology
+sitemapPriority: 0.8
+---
+
+<Article variant="technology-wrap" anchor="article">
+  <PageIntro title="A DAG based ledger" leadStyle="subBlock">
+    <Text style="blockInline">
+      In Obyte DAG, each transaction references one or more previous (parent) transactions. Every transaction is identified by its hash, and by referencing parent transactions, a child transaction also includes their hashes. This is similar to the way the next block in a blockchain includes a hash of the previous block but the links are between transactions, not blocks, and there can be more than one parent.
+    </Text>
+
+    <Lead>
+      Unlike most other crypto networks, Obyte is based on DAG (<a href="https://en.wikipedia.org/wiki/Directed_acyclic_graph" target="_blank">directed acyclic graph</a>), not blockchain. By using a block-free, DAG based ledger, Obyte fully delivers on the promise of crypto — **getting rid of middlemen**. There are no miners (block producers) in Obyte, all users have equal rights and can freely add their transactions to the ledger. And they do so directly, without intermediaries, without gatekeepers who could block or delay the transactions they don't like.
+    </Lead>
+  </PageIntro>
+
+  <Box style="text-block">
+    <Spacer lines="2" />
+
+    ![new transaction in dag](/media/theme/technology/svg1.svg)
+
+    <Spacer lines="2" />
+
+    After a new transaction is added to the DAG, it quickly gets children transactions that include its hash, then grandchildren, and the number of future transactions that include it directly or indirectly grows like a snowball.
+
+    ![stable dag grows like snowball](/media/theme/technology/svg2.svg)
+
+    <FlexBlock image="/media/theme/technology/flex1.svg" imagePosition="left" kind="d-flex">
+      Users can attach their transactions at any point on the DAG and when doing so, they must pay a fee that is equal to the size of their transaction in bytes. The native currency of Obyte is Byte, and 1 Byte of currency allows you to add 1 byte of storage to the global immutable database, to be stored forever.
+    </FlexBlock>
+
+    <Spacer lines="3" />
+
+    <FlexBlock image="/media/theme/technology/flex2.svg" imagePosition="left" kind="d-flex">
+      Although users can add their transactions at any point on the DAG, the protocol incentivizes them to attach new transactions to the end of the DAG, i.e. select most recent previous transactions as parents, because by doing so, the user has a chance to earn part of the fees paid by the parent transactions.
+    </FlexBlock>
+
+    <Spacer lines="4" />
+
+    Like in other crypto networks, transactions are signed by user private keys and it is possible for a user to try to send two conflicting transactions that try to spend the same money twice — a double spend. In blockchains, double spends are resolved by block producers (such as miners). In Obyte, there are *rules* that determine the order of transactions, all nodes follow these rules to arrive at the same order of transactions, and out of two double-spends, the one that comes earlier in this order, wins.
+
+    Some transactions are already ordered just because they are on a DAG and they are connected through one or more parent-child links.
+
+    ![directed acyclic graph](/media/theme/technology/svg3.svg)
+
+    Transactions that are not connected by parent-child links, are ordered around the so called **Main Chain**. The Main Chain is a chain on the DAG that gravitates to transactions authored by frequently posting users called [Order Providers](/technology/order-providers) (formerly called Witnesses). The transactions that they regularly post serve as **waypoints** that allow all nodes to build the MC around these waypoints. All nodes run an algorithm that builds the MC based on the waypoints they see, and by running the same algorithm, they eventually arrive at the same result.
+
+    Once the Main Chain is established, all transactions are ordered around it by assigning an index to each transaction on the MC and for all non-MC transactions finding the earliest MC index when this transaction gets included on the MC.
+
+    ![main chain in dag](/media/theme/technology/svg4.svg)
+
+    The above is a brief overview of Obyte consensus algorithm. For more details, refer to the [white paper](/Byteball.pdf). Also, see what opportunities Obyte offers for [developers](developers).
+  </Box>
+</Article>

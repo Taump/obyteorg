@@ -1,0 +1,34 @@
+title: |-
+  The future is \
+  **decentralized**
+mainQuote:
+  text: |-
+    ”We are creating a world that all may enter without privilege or prejudice accorded by race, economic power, military force, or station of birth.
+
+    We are creating a world where anyone, anywhere may express his or her beliefs, no matter how singular, without fear of being coerced into silence or conformity.“
+  author: John Perry Barlow
+  source: A Declaration of the Independence of Cyberspace
+  avatar: /media/theme/barlow.jpeg
+information:
+  - title: Obyte is a DAG based cryptocurrency network.
+    text: DAG stands for Directed Acyclic Graph — it’s a technology that makes Obyte fully decentralized, free of domination, free of censorship, and accessible to all.
+  - title: It's not a blockchain.
+    text: Blockchains were a big step to decentralization. However, they fall short of full decentralization as their block producers are still big power centers. A small number of them control most block production and can collude to (or be coerced to) censor certain transactions. Obyte makes another leap forward by getting rid of those big power centers and middlemen.
+sideQuote:
+  text: ”Whenever something is wrong, something is too big“
+  author: Leopold Kohr
+  source: The Breakdown of Nations
+  smallAvatar: /media/theme/kohr-small.png
+comparisons:
+  - image: /media/theme/comparison/centralization.svg
+    title: Full centralization
+    description: Domination of one
+    active: false
+  - image: /media/theme/comparison/blockchain.svg
+    title: Blockchain
+    description: Domination of few
+    active: false
+  - image: /media/theme/comparison/dag.svg
+    title: DAG
+    description: No domination
+    active: true

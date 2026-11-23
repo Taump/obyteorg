@@ -1,0 +1,71 @@
+---
+title: Self-Sovereign Identity
+description: Self-Sovereign Identity. On Obyte, users have an option to get any information about themselves verified and easily proven to third parties.
+sitemapPriority: 0.8
+---
+
+<Article variant="identity-wrap" anchor="self-sovereign-identity">
+  <PageIntro title="Self-Sovereign Identity" leadStyle="subBlock">
+    <Text style="block">
+      For example, a user may opt to have their real name verified, with the personal information being stored in their wallet and nowhere else, then share this information with other users they choose, with other users being able to verify that this information is authentic using the Obyte DAG.
+    </Text>
+
+    <Lead>
+      On Obyte, users have an option to get any information about themselves verified and easily proven to third parties.
+    </Lead>
+  </PageIntro>
+
+  Knowledge of a user's real-world identity might be necessary e.g. for signing prosaic \
+  contracts to know that the other party really is who they say they are, or for some apps \
+  to be compliant with KYC requirements or to prevent fraud.
+
+  When sharing private information with their counterparts, users have full control of what they share. For example, having verified a government issued ID that contains one's real name, ID number, date of birth, and expiry date, one can choose to share only the date of birth with an app that needs only to verify the user's age in order to allow access to age restricted goods or services.
+
+  Other information, such as email address or social media profiles, can also be verified and shared with apps that need it. Users can also choose to have this information stored publicly on the DAG.
+
+  <FlexBlock image="/media/theme/identity/img1.png" mobileImage="/media/theme/identity/img1-mob.png" imagePosition="right" kind="flex-block" modifiers="one">
+    ## How it works
+
+    Verification is performed by attestors — users or businesses trusted by both the user being verified and the relying party (one who needs to know certain information about the user, and know that it is authentic).
+
+    After a successful verification, the attestor posts an attestation record to the Obyte DAG. This record contains the verified information about the user if the user chose to have it public, or a hash of this information, which makes it impossible for third parties to see the information but proves that it exists. In the latter case, the verified information is also saved privately in the user's wallet, so the user can later share it with interested parties. After this, the verified information can be used independently of the attestor, even if the attestor goes out of business.
+
+    If the verified information is saved privately in the user's wallet, the user can easily share it with interested parties using the built-in chat:
+
+    <Image src="/media/theme/identity/img1-bot.png" variant="info-img" />
+
+    while choosing which fields to disclose.
+  </FlexBlock>
+
+  ## Available attestors
+
+  Verifications are usually performed by bots. Here are a few bots whose attestations can be used now:<br />
+
+  <MediaList variant="attestors">
+    <Item image="/media/theme/identity/svg1.svg" title="Real name attestation bot">
+      verifies user's government issued ID. Information extracted from the ID (name, ID number, country, date of birth, expiry date) is saved in the user's wallet while a hash of this information is posted to the DAG.
+    </Item>
+
+    <Item image="/media/theme/identity/svg2.svg" title="Email attestation bot">
+      Verifies user's email address. Users can opt to have their verified email published to the DAG or saved privately in the user's wallet. If a user chose to have their email published, this enables other users to send payments to the attested user by typing his/her email address instead of Obyte address.
+    </Item>
+
+    <Item image="/media/theme/developers/grants.svg" title="Accredited investor attestation bot">
+      Verifies that the user qualifies as accredited investor according to the US law and SEC rules. This status enables the user to participate in Security Token Offerings (STOs).
+    </Item>
+
+    <Item image="/media/theme/identity/svg4.svg" title="Steem attestation bot">
+      Verified that a user had a Steem account and optionally published the user's Steem username and reputation. Applications may choose to offer some privileges to users with high Steem reputation. If the Steem username is published then other users can send payments to the attested user by typing "steem/username" instead of Obyte address. This attestor was stopped and doesn't create new attestations since Steem forked in 2020 but its published data can be used by apps forever.
+    </Item>
+
+    <Item image="/media/theme/identity/github.svg" title="GitHub attestation bot">
+      Verifies that a user has a GitHub account and optionally publishes the user's GitHub username and/or username of their organization. Other users can send payments to the attested user by typing "github/username" instead of Obyte address.
+    </Item>
+  </MediaList>
+
+  Attestations can also be easily done manually by sending an attestation transaction from the attestor's wallet.
+
+  <DevCallout image="/media/theme/developers/documentation.svg" category="Developers" title="Using Self-Sovereign Identity in your apps">
+    Developers, see the documentation about <a href="https://developer.obyte.org/private-profiles" target="_blank">working with attestations in your bots</a>, <a href="https://developer.obyte.org/contracts/reference#attested" target="_blank">checking for attestations in smart contracts</a>, and <a href="https://developer.obyte.org/autonomous-agents/oscript-language-reference#attestation" target="_blank">reading the attested data in Autonomous Agents</a>.
+  </DevCallout>
+</Article>

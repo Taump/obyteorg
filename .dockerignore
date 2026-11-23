@@ -1,0 +1,16 @@
+# Only what the build needs. content/.generated/dates.json is kept (made from git before the build).
+.git
+.next
+node_modules
+deploy
+.env
+.env.*
+!.env.example
+tests
+test-results
+playwright-report
+.lighthouseci
+docs
+*.log
+.DS_Store
+.claude

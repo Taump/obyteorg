@@ -1,0 +1,252 @@
+/* Scan only our source code for class names (docs/, tests/ etc. must not generate CSS). */
+@import 'tailwindcss' source('../..');
+@import './fonts.css';
+/*
+ * Class names rendered by the inner-page blocks that are also Tailwind utilities: never
+ * generate the utilities (the Spectre-style `.container` comes from src/shared/styles/pages.css).
+ */
+@source not inline('container');
+@source not inline('w-550');
+@source not inline('w-670');
+@source not inline('w-745');
+
+/*
+ * Design tokens of the site.
+ *
+ * Conventions:
+ * - `--spacing: 1px` → numeric utilities are pixels: `pt-75` = 75px, `gap-16` = 16px.
+ *   Sizes that scale with the root font are written as arbitrary rem values: `mt-[2rem]`.
+ * - The root font size is fluid (16px at ≤480px → 20px at ≥1280px), so every rem value scales.
+ * - Breakpoints are the Spectre ones + 1px. pages.css is desktop-first (`max-width: 768px`),
+ *   and Tailwind's `max-sm:` means `width < 769px` → identical to `max-width: 768px`.
+ */
+@theme {
+  --spacing: 1px;
+
+  --breakpoint-*: initial;
+  --breakpoint-xs: 481px;
+  --breakpoint-sm: 769px;
+  --breakpoint-md: 841px;
+  --breakpoint-lg: 961px;
+  --breakpoint-xl: 1281px;
+  --breakpoint-2x: 1441px;
+
+  --font-sans: 'Open Sans', sans-serif;
+  --font-noto: 'Noto Sans', sans-serif;
+
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-header: #f0f4f9;
+  --color-body: #f7f7f7;
+  --color-link: #456c91;
+  --color-text: rgb(0 0 0 / 0.6);
+  --color-text-2: #15202b;
+  --color-blue: #1560bd;
+  --color-blue-2: #4a90e2;
+  --color-gray: #e5e5ea;
+  --color-dark-gray: #797c80;
+  --color-dark-gray-2: #a6a6a6;
+  --color-primary: #1164cb; /* ≥ 4.5:1 on the page greys (WCAG AA) */
+  --color-dark: #454d5d;
+  --color-body-text: #50596c;
+  --color-primary-dark: #0d55ad;
+  --color-primary-light: #e1edfd;
+  --color-menu-hover: #e9f1fb;
+  --color-success: #43d50c;
+
+  --animate-zoom-in: zoom-in 0.5s ease;
+
+  @keyframes zoom-in {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+}
+
+@layer base {
+  html {
+    height: 100%;
+    font-size: 16px;
+  }
+  @media screen and (min-width: 480px) {
+    html {
+      font-size: calc(16px + 4 * ((100vw - 480px) / 800));
+    }
+  }
+  @media screen and (min-width: 1280px) {
+    html {
+      font-size: 20px;
+    }
+  }
+
+  /* Spectre base + theme (_general.scss): body text is .8rem / 1.5, links have no underline */
+  html {
+    line-height: 1.5;
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;
+    font-family: var(--font-sans);
+    font-size: 0.8rem;
+    color: var(--color-body-text);
+    background-color: var(--color-body);
+    text-rendering: optimizeLegibility;
+  }
+  a {
+    color: var(--color-primary);
+    text-decoration: none;
+    outline: none;
+  }
+  /* links inside running text: colour alone is not enough to tell them apart (WCAG 1.4.1) */
+  p a:not([class]) {
+    text-decoration: underline;
+    text-decoration-color: color-mix(in srgb, currentColor 40%, transparent);
+    text-underline-offset: 0.15em;
+  }
+  p a:not([class]):hover {
+    text-decoration-color: currentColor;
+  }
+  a:focus-visible {
+    box-shadow: 0 0 0 0.1rem rgb(17 100 203 / 0.2);
+  }
+  /*
+   * Element defaults (Spectre base/typography + theme overrides). Tailwind's preflight removes
+   * them, but the page layouts and the content's rich text rely on them. Utilities still
+   * override (higher layer).
+   */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 2rem;
+    margin-bottom: 0.5em;
+    font-family:
+      -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #3a414e;
+  }
+  h1 {
+    font-family: var(--font-sans);
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+  h3 {
+    font-size: 1.4rem;
+  }
+  h4 {
+    font-size: 1.2rem;
+  }
+  h5 {
+    font-size: 1rem;
+  }
+  h6 {
+    font-size: 0.8rem;
+  }
+  p {
+    margin: 0 0 1.2rem;
+  }
+  b,
+  strong {
+    font-weight: 700;
+  }
+  small {
+    font-size: 80%;
+    font-weight: 400;
+  }
+  sub,
+  sup {
+    position: relative;
+    font-size: 75%;
+    line-height: 0;
+    vertical-align: baseline;
+  }
+  sub {
+    bottom: -0.25em;
+  }
+  sup {
+    top: -0.5em;
+  }
+  ul,
+  ol {
+    margin: 0.8rem 0 0.8rem 1.6rem;
+    padding: 0;
+  }
+  ul {
+    list-style: disc outside;
+  }
+  ol {
+    list-style: decimal outside;
+  }
+  li {
+    margin-top: 0.4rem;
+  }
+  ul ul {
+    list-style-type: circle;
+  }
+  /* Spectre code + theme `pre code` (code samples on /platform/oracles, /developers …) */
+  code,
+  kbd,
+  pre,
+  samp {
+    font-family: 'SF Mono', 'Segoe UI Mono', 'Roboto Mono', Menlo, Courier, monospace;
+    font-size: 1em;
+  }
+  code {
+    /* 85%, but never under 12px (legible font sizes on phones) */
+    font-size: max(85%, 12px);
+    line-height: 1.25;
+    padding: 0.1rem 0.2rem;
+    color: #d73e48;
+    border-radius: 0.1rem;
+    background: #fcf2f2;
+  }
+  /* the browser default (preflight zeroes it) */
+  pre {
+    margin: 1em 0;
+  }
+  pre code {
+    line-height: 1.5;
+    display: block;
+    overflow-x: auto;
+    padding: 1rem !important;
+    color: inherit;
+    border-radius: 2px;
+    background: #fafafa;
+  }
+  pre code:not([class*='language-']) {
+    background: #f8f8f8;
+  }
+  blockquote {
+    margin-left: 0;
+    padding: 0.4rem 0.8rem;
+    border-left: 0.1rem solid #e7e9ed;
+  }
+
+  /* Preflight makes media `display:block; vertical-align:middle`; the pages use the browser
+     defaults (inline, baseline) — inline images sit on the text baseline with descender space. */
+  img,
+  video,
+  svg,
+  canvas,
+  iframe,
+  object {
+    display: inline;
+    vertical-align: baseline;
+  }
+
+  /* mobile menu open: lock page scroll */
+  html[data-menu-open] body {
+    overflow-y: hidden;
+  }
+}

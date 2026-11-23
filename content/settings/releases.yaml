@@ -1,0 +1,93 @@
+mainnet:
+  version: 5.0.2
+  files:
+    - platform: macIntel
+      url: "{github}/obyte-gui-wallet/releases/download/v5.0.2/Obyte-5.0.2.dmg"
+    - platform: macArm
+      url: "{github}/obyte-gui-wallet/releases/download/v5.0.2/Obyte-5.0.2-arm64.dmg"
+    - platform: win64
+      url: "{github}/obyte-gui-wallet/releases/download/v5.0.2/Obyte.Setup.5.0.2.exe"
+    - platform: win32
+      url: "{github}/obyte-gui-wallet/releases/download/v3.4.1/Obyte-win32.exe"
+    - platform: linux
+      url: "{github}/obyte-gui-wallet/releases/download/v5.0.2/Obyte-5.0.2.AppImage"
+testnet:
+  version: 5.0.0t
+  files:
+    - platform: macIntel
+      url: "{github}/testnet-releases/releases/download/v5.0.0t/Obyte-TN-5.0.0-t.dmg"
+    - platform: win64
+      url: "{github}/testnet-releases/releases/download/v5.0.0t/Obyte-TN.Setup.5.0.0-t.exe"
+    - platform: win32
+      url: "{github}/testnet-releases/releases/download/v3.2.0t/Obyte-TN-win32.exe"
+    - platform: linux
+      url: "{github}/testnet-releases/releases/download/v5.0.0t/Obyte-TN-5.0.0-t.AppImage"
+    - platform: macArm
+      url: "{github}/testnet-releases/releases/download/v5.0.0t/Obyte-TN-5.0.0-t-arm64.dmg"
+aliases:
+  - filename: Byteball-test-osx64.dmg
+    network: testnet
+    platform: macIntel
+  - filename: Byteball-test-win64.exe
+    network: testnet
+    platform: win64
+  - filename: Byteball-test-win32.exe
+    network: testnet
+    platform: win32
+  - filename: Byteball-test-linux64.zip
+    network: testnet
+    platform: linux
+  - filename: Obyte-test-osx64.dmg
+    network: testnet
+    platform: macIntel
+  - filename: Obyte-test-arm64.dmg
+    network: testnet
+    platform: macArm
+  - filename: Obyte-test-win64.exe
+    network: testnet
+    platform: win64
+  - filename: Obyte-test-win32.exe
+    network: testnet
+    platform: win32
+  - filename: Obyte-test-linux64.zip
+    network: testnet
+    platform: linux
+  - filename: Obyte-osx64.dmg
+    network: mainnet
+    platform: macIntel
+  - filename: Obyte-arm64.dmg
+    network: mainnet
+    platform: macArm
+  - filename: Obyte-win64.exe
+    network: mainnet
+    platform: win64
+  - filename: Obyte-win32.exe
+    network: mainnet
+    platform: win32
+  - filename: Obyte-linux64.zip
+    network: mainnet
+    platform: linux
+  - filename: Obyte-x86_64.AppImage
+    network: mainnet
+    platform: linux
+  - filename: Byteball-osx64.dmg
+    network: mainnet
+    platform: macIntel
+  - filename: Byteball-win64.exe
+    network: mainnet
+    platform: win64
+  - filename: Byteball-win32.exe
+    network: mainnet
+    platform: win32
+  - filename: Byteball-linux64.zip
+    network: mainnet
+    platform: linux
+apps:
+  appStoreBadge: /media/theme/svg/app-store.svg
+  googlePlayBadge: /media/theme/svg/google-play-store.svg
+  mainnet:
+    appStore: https://apps.apple.com/us/app/byteball/id1147137332?platform=iphone
+    googlePlay: https://play.google.com/store/apps/details?id=org.byteball.wallet
+  testnet:
+    appStore: https://github.com/byteball/obyte-gui-wallet/
+    googlePlay: https://play.google.com/store/apps/details?id=org.byteball.wallet.testnet

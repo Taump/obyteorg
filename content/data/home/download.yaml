@@ -1,0 +1,12 @@
+title: Download your Obyte (Byteball) wallet
+downloadLinks:
+  - label: Download for Windows 64bit
+    link: /downloads/Obyte-win64.exe
+  - label: Download for macOS (Intel based)
+    link: /downloads/Obyte-osx64.dmg
+  - label: Download for macOS (M1/M2 processors)
+    link: /downloads/Obyte-arm64.dmg
+  - label: Download for Linux 64bit
+    link: /downloads/Obyte-x86_64.AppImage
+  - label: GitHub releases
+    link: "{github}/obyte-gui-wallet/releases"

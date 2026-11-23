@@ -1,0 +1,110 @@
+- name: Tony Churyumoff
+  role: Founder and Lead Developer
+  photo: /media/theme/team/tony.png
+  links:
+    - icon: github
+      url: https://github.com/tonyofbyteball
+    - icon: linkedin
+      url: https://www.linkedin.com/in/anton-churyumov-32112b7/
+- name: Steve Safronoff
+  role: Partner relations
+  photo: /media/theme/team/steve.png
+  links:
+    - icon: linkedin
+      url: https://www.linkedin.com/in/steve-safronoff-5607a04b/
+- name: Luke Angell
+  role: Events and Partnerships Manager
+  photo: /media/theme/team/luke.png
+  links:
+    - icon: linkedin
+      url: https://www.linkedin.com/in/lukezangell/
+- name: Casper Niebe
+  role: User Acquisition Manager
+  photo: /media/theme/team/casper.png
+  links:
+    - icon: linkedin
+      url: https://www.linkedin.com/in/cniebe/
+- name: Mikhail Pustovalov
+  role: Developer
+  photo: /media/theme/team/mikhail.jpg
+  links:
+    - icon: github
+      url: https://github.com/kakysha
+- name: Evgeniy Stulnikov
+  role: Developer
+  photo: /media/theme/team/evgenii.jpg
+  links:
+    - icon: github
+      url: https://github.com/xJeneKx
+- name: Artem Nagorny
+  role: Developer
+  photo: /media/theme/team/artem-n.png
+  links:
+    - icon: github
+      url: https://github.com/temikng
+- name: Tarmo
+  role: Developer
+  photo: /media/theme/team/tarmo.png
+  links:
+    - icon: github
+      url: https://github.com/tarmo888
+- name: Papabyte
+  role: Developer
+  photo: /media/theme/team/papabyte.jpg
+  links:
+    - icon: github
+      url: https://github.com/Papabyte
+- name: Vladimir Glushkov
+  role: Developer
+  photo: /media/theme/team/vladimir.png
+  links:
+    - icon: github
+      url: https://github.com/fenrirheimr
+- name: Igor Pavlenko
+  role: Developer
+  photo: /media/theme/team/igor.png
+  links:
+    - icon: github
+      url: https://github.com/ipavlenko
+- name: Artem Valyakin
+  role: Developer
+  photo: /media/theme/team/artem.png
+  links:
+    - icon: github
+      url: https://github.com/valyakin
+- name: Alexey Gerasimov
+  role: Frontend Developer
+  photo: /media/theme/team/alexey.png
+  links:
+    - icon: github
+      url: https://github.com/EddieBro
+- name: Alexander Ponomarev
+  role: Developer
+  photo: /media/theme/team/alexander.jpg
+  links:
+    - icon: github
+      url: https://github.com/Taump
+- name: Travin Keith
+  role: Advisor
+  photo: /media/theme/team/travin.png
+  links:
+    - icon: linkedin
+      url: https://www.linkedin.com/in/travinkeith/
+- name: John McLeod
+  role: PR
+  photo: /media/theme/team/john.png
+  links:
+    - icon: linkedin
+      url: https://www.linkedin.com/in/john-mcleod-a323799
+- name: Fabiola Sandoval
+  role: Marketing
+  photo: /media/theme/team/fabiola.png
+  links:
+    - icon: linkedin
+      url: https://www.linkedin.com/in/fabiolasandoval/
+- name: Yaroslav Kozhukhov
+  role: Community manager
+  photo: /media/theme/team/yaroslav.png
+  links:
+    - icon: linkedin
+      url: https://www.linkedin.com/in/yaroslav-kozhukhov-7a0238155/

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="163px" height="160px" viewBox="0 0 163 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon 01</title>
+    <g id="Illustration" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-01" transform="translate(1.000000, 1.000000)">
+            <g id="Group" transform="translate(3.000000, 0.000000)" fill="#4A90E2" fill-opacity="0.8" stroke="#1560BD" stroke-width="2">
+                <g id="rings">
+                    <circle id="Oval" opacity="0.015" cx="79" cy="79" r="79"></circle>
+                    <ellipse id="Oval" opacity="0.04" cx="79.4968553" cy="79.5" rx="71.5471698" ry="71.5"></ellipse>
+                    <ellipse id="Oval" opacity="0.07" cx="79.4968553" cy="79.5" rx="62.6037736" ry="62.5"></ellipse>
+                    <ellipse id="Oval" opacity="0.13" cx="79.4968553" cy="79" rx="43.7232704" ry="44"></ellipse>
+                    <ellipse id="Oval" opacity="0.1" cx="79.4968553" cy="79" rx="19.8742138" ry="20"></ellipse>
+                </g>
+            </g>
+            <g id="Group-3" opacity="0.5" transform="translate(24.000000, 38.000000)">
+                <rect id="Rectangle" stroke="#1560BD" stroke-width="2" fill="#FFFFFF" x="0" y="0" width="21" height="34" rx="2"></rect>
+                <rect id="Rectangle" stroke="#1560BD" stroke-width="2" fill-opacity="0.12" fill="#4A90E2" x="0" y="4" width="21" height="23"></rect>
+                <polygon id="Rectangle" fill="#4A90E2" opacity="0.100000001" points="1 5 20 5 1 20"></polygon>
+                <circle id="Oval" stroke="#1560BD" stroke-width="2" fill="#4A90E2" cx="10.5" cy="30.5" r="1"></circle>
+            </g>
+            <g id="Group-4" opacity="0.5" transform="translate(106.000000, 79.000000)">
+                <rect id="Rectangle" stroke="#1560BD" stroke-width="2" fill="#FFFFFF" x="0" y="0" width="33" height="42" rx="2"></rect>
+                <rect id="Rectangle" stroke="#1560BD" stroke-width="2" fill-opacity="0.12" fill="#4A90E2" x="0" y="3" width="33" height="32"></rect>
+                <polygon id="Rectangle" fill="#4A90E2" opacity="0.100000001" points="1 4 32 4 1 29"></polygon>
+                <circle id="Oval" stroke="#1560BD" stroke-width="2" fill="#4A90E2" cx="16.5" cy="38.5" r="1"></circle>
+            </g>
+            <g id="Group-6" opacity="0.5" transform="translate(0.000000, 88.000000)">
+                <g id="Group-4">
+                    <rect id="Rectangle" stroke="#1560BD" stroke-width="2" fill-opacity="0.12" fill="#4A90E2" x="4" y="0" width="48" height="39" rx="1"></rect>
+                    <polygon id="Rectangle" fill="#4A90E2" opacity="0.100000001" points="4 1 52 1 4 27"></polygon>
+                    <path d="M0,35 L57,35 L57,37 C57,38.1045695 56.1045695,39 55,39 L2,39 C0.8954305,39 1.3527075e-16,38.1045695 0,37 L0,35 L0,35 Z" id="Rectangle" stroke="#1560BD" stroke-width="2" fill="#FFFFFF"></path>
+                    <rect id="Rectangle" fill="#FFFFFF" x="5" y="1" width="46" height="2"></rect>
+                    <polygon id="Rectangle" fill-opacity="0.12" fill="#4A90E2" points="5 28.1075979 51 3 51 6 51 7 5 32.1075979"></polygon>
+                </g>
+            </g>
+            <g id="Group-2" transform="translate(28.000000, 47.000000)">
+                <path d="M88,87 C88,89.209139 86.209139,91 84,91 L84,91 L6,91 C3.790861,91 2,89.209139 2,87 L2,87 L2,82 L11,82 L11,4 C11,1.790861 12.790861,4.05812251e-16 15,0 L84,0 C86.209139,-4.05812251e-16 88,1.790861 88,4 Z" id="Combined-Shape" stroke="#1560BD" stroke-width="2" fill="#FFFFFF"></path>
+                <path d="M84,0 C86.209139,-4.05812251e-16 88,1.790861 88,4 L88,12 L11,12 L11,4 C11,1.790861 12.790861,4.05812251e-16 15,0 L84,0 Z" id="Combined-Shape" stroke="#1560BD" stroke-width="2" fill-opacity="0.2" fill="#4A90E2"></path>
+                <circle id="Oval" stroke="#1560BD" stroke-width="2" fill="#FFFFFF" cx="18" cy="6" r="2"></circle>
+                <circle id="Oval" stroke="#1560BD" stroke-width="2" fill="#FFFFFF" cx="25" cy="6" r="2"></circle>
+                <circle id="Oval" stroke="#1560BD" stroke-width="2" fill="#FFFFFF" cx="32" cy="6" r="2"></circle>
+                <path d="M0,38 L11,38 L11,86 C11,88.7614237 8.76142375,91 6,91 L5,91 C2.23857625,91 3.38176876e-16,88.7614237 0,86 L0,38 L0,38 Z" id="Rectangle" stroke="#1560BD" stroke-width="2" fill="#D9E5F2"></path>
+                <rect id="Rectangle" stroke="#1560BD" stroke-width="2" fill="#FFFFFF" x="55" y="4" width="29" height="4" rx="2"></rect>
+                <path d="M1,85.472 L1.0456928,85.5128405 C2.03955625,86.3847345 3.32492729,86.934056 4.74046947,86.9944709 L4.97870591,86.9997733 L84,87 L84.2241536,86.9948042 L84.4508773,86.9786602 C85.3519692,86.8943998 86.1817247,86.5756525 86.8789356,86.084597 L87,85.996 L87,87 C87,88.600955 85.7424301,89.9180655 84.1505472,89.9963105 L83.9754867,90.0003005 L5,90 C2.790861,90 1,88.209139 1,86 L1,85.472 Z" id="Combined-Shape" fill="#1560BD" fill-rule="nonzero" opacity="0.119999997"></path>
+                <rect id="Rectangle" fill="#4A90E2" x="12" y="16" width="75" height="34"></rect>
+                <line x1="54.5492792" y1="22" x2="44" y2="45.0808272" id="Path-2" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"></line>
+                <polyline id="Path-3" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" points="38.2530483 43.6525433 28 33.3994949 38.3994949 23"></polyline>
+                <polyline id="Path-3" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" transform="translate(65.199747, 33.326272) scale(-1, 1) translate(-65.199747, -33.326272) " points="70.2530483 43.6525433 60 33.3994949 70.3994949 23"></polyline>
+                <rect id="Rectangle" fill="#E5E5EA" x="17" y="57" width="9" height="3" rx="1.5"></rect>
+                <rect id="Rectangle" fill="#E5E5EA" x="32" y="57" width="11" height="3" rx="1.5"></rect>
+                <rect id="Rectangle" fill="#E5E5EA" x="45" y="57" width="24" height="3" rx="1.5"></rect>
+                <rect id="Rectangle" fill="#E5E5EA" x="17" y="77" width="9" height="3" rx="1.5"></rect>
+                <rect id="Rectangle" fill="#E5E5EA" x="32" y="77" width="7" height="3" rx="1.5"></rect>
+                <rect id="Rectangle" fill="#E5E5EA" x="41" y="77" width="14" height="3" rx="1.5"></rect>
+                <rect id="Rectangle" fill="#E5E5EA" x="17" y="62" width="9" height="3" rx="1.5"></rect>
+                <rect id="Rectangle" fill="#E5E5EA" x="32" y="62" width="11" height="3" rx="1.5"></rect>
+                <rect id="Rectangle" fill="#E5E5EA" x="45" y="62" width="36" height="3" rx="1.5"></rect>
+                <rect id="Rectangle" fill="#E5E5EA" x="17" y="67" width="9" height="3" rx="1.5"></rect>
+                <rect id="Rectangle" fill="#E5E5EA" x="39" y="67" width="8" height="3" rx="1.5"></rect>
+                <rect id="Rectangle" fill="#E5E5EA" x="49" y="67" width="16" height="3" rx="1.5"></rect>
+                <rect id="Rectangle" fill="#E5E5EA" x="17" y="72" width="9" height="3" rx="1.5"></rect>
+                <rect id="Rectangle" fill="#E5E5EA" x="39" y="72" width="11" height="3" rx="1.5"></rect>
+                <rect id="Rectangle" fill="#E5E5EA" x="52" y="72" width="19" height="3" rx="1.5"></rect>
+            </g>
+            <line x1="21.0934497" y1="138" x2="122.5" y2="138" id="Path-4" stroke="#1560BD" stroke-width="2" opacity="0.200000003" stroke-linecap="round"></line>
+            <line x1="17" y1="138" x2="18" y2="138" id="Path-4" stroke="#1560BD" stroke-width="2" opacity="0.200000003" stroke-linecap="round"></line>
+            <line x1="126" y1="138" x2="129" y2="138" id="Path-4" stroke="#1560BD" stroke-width="2" opacity="0.200000003" stroke-linecap="round"></line>
+        </g>
+    </g>
+</svg>

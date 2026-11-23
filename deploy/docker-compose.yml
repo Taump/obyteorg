@@ -1,0 +1,14 @@
+# Production on the VPS (see deploy/README.md).
+services:
+  site:
+    image: obyte-site:latest
+    restart: unless-stopped
+    # the image optimizer's cache survives restarts and redeploys
+    volumes:
+      - /srv/obyte/image-cache:/app/.next/cache/images
+    # behind Cloudflare → a reverse proxy on the host terminates TLS (Caddy/nginx)
+    ports:
+      - '127.0.0.1:3000:3000'
+    logging:
+      driver: json-file
+      options: { max-size: '10m', max-file: '5' }

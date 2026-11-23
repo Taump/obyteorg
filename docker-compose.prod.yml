@@ -1,0 +1,24 @@
+# Production for a container platform that builds from the repository (Dokploy/Coolify-style).
+# (On a plain VPS use deploy/docker-compose.yml + deploy/deploy.sh — see deploy/README.md.)
+#
+# Set in the platform: NEXT_PUBLIC_SERVER_URL=https://obyte.org (a build arg: inlined into pages).
+# Sitemap dates come from git: run `node scripts/content-dates.ts` in the platform's pre-build
+# step if it has the repository history; otherwise lastmod is left out.
+services:
+  site:
+    build:
+      context: .
+      args:
+        NEXT_PUBLIC_SERVER_URL: ${NEXT_PUBLIC_SERVER_URL:?set NEXT_PUBLIC_SERVER_URL}
+    restart: unless-stopped
+    # the image optimizer's cache survives restarts and redeploys
+    volumes:
+      - image-cache:/app/.next/cache/images
+    expose:
+      - '3000'
+    logging:
+      driver: json-file
+      options: { max-size: '10m', max-file: '5' }
+
+volumes:
+  image-cache:
